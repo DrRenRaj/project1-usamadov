@@ -1,3 +1,56 @@
 <resources>
-    <string name="app_name">Project1_S24</string>
+<string name="app_name">Project1_S24</string>
+<string name="combustion_engine_cars">Combustion Engine Cars</string>
+<string name="electric_cars">Electric Cars</string>
+
+<string name="motorcycles">Motorcycles</string>
+<string name="welcome_message">Welcome to Top 10 Fastest Cars in the World</string>
+<string name="car_category">Please select a category:</string>
+<!-- Combustion Cars -->
+<string name="bugatti_chiron_super_sport">Bugatti Chiron Super Sport</string>
+<string name="koenigsegg_jesko_absolut">Koenigsegg Jesko Absolut</string>
+<string name="hennessey_venom_f5">Hennessey Venom F5</string>
+<string name="ssc_tuatara">SSC Tuatara: Top Speed</string>
+<string name="bugatti_veyron_super_sport">Bugatti Veyron Super Sport</string>
+<string name="porsche_918_spyder">Porsche 918 Spyder: Top Speed</string>
+<string name="ferrari_laferrari">Ferrari LaFerrari</string>
+<string name="mclaren_p1">McLaren P1: Top Speed</string>
+<string name="lamborghini_aventador_svj">Lamborghini Aventador SVJ</string>
+<string name="ferrari_sf90_stradale">Ferrari SF90 Stradale</string>
+
+<!-- Electric Cars -->
+<string name="rimac_nevera">Rimac Nevera</string>
+<string name="tesla_model_s_plaid">Tesla Model S Plaid</string>
+<string name="pininfarina_beretta">Pininfarina Battista</string>
+<string name="aspark_owl">Aspark Owl</string>
+<string name="tesla_roadster">Tesla Roadster</string>
+<string name="nio_ep9">NIO EP9: Top Speed</string>
+<string name="tesla_model_s_performance">Tesla Model S Performance</string>
+<string name="porsche_taycan_turbo_s">Porsche Taycan Turbo S</string>
+<string name="rimac_concept_one">Rimac Concept_One</string>
+<string name="lotus_evija">Lotus Evija: Top Speed</string>
+
+<!-- Combustion Engine Motorcycles -->
+<string name="ducati_panigale_v4_r">Ducati Panigale V4 R</string>
+<string name="bmw_s1000rr">BMW S1000RR: Top Speed</string>
+<string name="kawasaki_ninja_h2r">Kawasaki Ninja H2R</string>
+<string name="aprilia_rsv4_1100_factory">Aprilia RSV4 1100 Factory</string>
+<string name="mvd_agusta_f4_rc">MV Agusta F4 RC: Top Speed</string>
+<string name="yamaha_yzf_r1m">Yamaha YZF-R1M: Top Speed</string>
+<string name="honda_cbr1000rr_r_fireblade_sp">Honda CBR1000RR-R Fireblade SP</string>
+<string name="suzuki_gsx_r1000r">Suzuki GSX-R1000R: Top Speed</string>
+<string name="ktm_1290_super_duke_r">KTM 1290 Super Duke R</string>
+<string name="ducati_streetfighter_v4">Ducati Streetfighter V4</string>
+<string name="car_name">Car Name</string>
+<string name="car_details">Car Details: %s</string>
+<string name="car_performance">Car Performance: %s</string>
+<string name="motocycle_performance">Motorcycle Performance: %s</string>
+<string name="motorcycle_details">Motorcycle Details: %s</string>
+
+
+<string name="top_speed">Top Speed:</string>
+<string name="a0_60_mph">0–60 mph:</string>
+<string name="combustion_engine_cars_header">Combustion Engine Cars</string>
+<!-- TODO: Remove or change this placeholder text -->
+<string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ElectricCarListFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Header TextView for the category -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/electric_cars"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:padding="8dp"/>
+
+        <!-- Separator line -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginTop="8dp"/>
+
+        <!-- List of Electric Cars, each TextView represents a car name -->
+        <TextView
+            android:id="@+id/rimac_nevera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rimac_nevera"
+            android:padding="8dp"/>
+
+        <TextView
+            android:id="@+id/tesla_model_s_plaid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tesla_model_s_plaid"
+            android:padding="8dp"/>
+
+        <TextView
+            android:id="@+id/pininfarina_battista"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pininfarina_beretta"
+            android:padding="8dp"/>
+
+        <TextView
+            android:id="@+id/aspark_owl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/aspark_owl"
+            android:padding="8dp"/>
+
+        <TextView
+            android:id="@+id/tesla_roadster"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tesla_roadster"
+            android:padding="8dp"/>
+
+        <TextView
+            android:id="@+id/nio_ep9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nio_ep9"
+            android:padding="8dp"/>
+
+        <TextView
+            android:id="@+id/tesla_model_s_performance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tesla_model_s_performance"
+            android:padding="8dp"/>
+
+        <TextView
+            android:id="@+id/porsche_taycan_turbo_s"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/porsche_taycan_turbo_s"
+            android:padding="8dp"/>
+
+        <TextView
+            android:id="@+id/rimac_concept_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rimac_concept_one"
+            android:padding="8dp"/>
+
+        <TextView
+            android:id="@+id/lotus_evija"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lotus_evija"
+            android:padding="8dp"/>
+    </LinearLayout>
+</ScrollView>

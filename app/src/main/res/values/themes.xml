@@ -5,5 +5,17 @@
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
+    <style name="HeaderTextView">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- Style for the detail TextViews -->
+    <style name="DetailTextView">
+        <item name="android:textSize">18sp</item>
+        <item name="android:paddingTop">8dp</item>
+    </style>
+
     <style name="Theme.Project1_S24" parent="Base.Theme.Project1_S24" />
 </resources>

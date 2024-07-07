@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ElectricCarDetailFragment">
+
+    <!-- TextView for Car Name -->
+    <TextView
+        android:id="@+id/electric_car_name"
+        style="@style/HeaderTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        tools:text="Rimac Nevera"/>
+
+    <!-- TextView for Car Details -->
+    <TextView
+        android:id="@+id/electric_car_details"
+        style="@style/DetailTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:paddingTop="8dp"
+        tools:text=" Limited edition hypercar with a quad-turbocharged 8.0-liter W16 engine and extensively modified aerodynamics for top speed runs "/>
+
+    <!-- TextView for Car Performance -->
+    <TextView
+        android:id="@+id/electric_car_performance"
+        style="@style/DetailTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp"
+        android:paddingTop="8dp"
+        tools:text="Performance Details"/>
+</LinearLayout>

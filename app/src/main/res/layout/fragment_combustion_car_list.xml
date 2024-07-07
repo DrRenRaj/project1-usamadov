@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CombustionCarListFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Header TextView for the category -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/combustion_engine_cars"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:padding="8dp"/>
+
+        <!-- Separator line -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginTop="8dp"/>
+
+        <!-- List of Cars, each TextView represents a car name -->
+        <TextView
+            android:id="@+id/bugatti_chiron_ss"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bugatti_chiron_super_sport"
+            android:padding="8dp"/>
+
+        <TextView
+            android:id="@+id/koenigsegg_jesko"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/koenigsegg_jesko_absolut"
+            android:padding="8dp"/>
+
+        <TextView
+            android:id="@+id/hennessey_venom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hennessey_venom_f5"
+            android:padding="8dp"/>
+
+        <!-- Repeat the pattern for other car entries -->
+        <TextView
+            android:id="@+id/ssc_tuatara"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ssc_tuatara"
+            android:padding="8dp"/>
+
+        <TextView
+            android:id="@+id/bugatti_veyron_ss"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bugatti_veyron_super_sport"
+            android:padding="8dp"/>
+
+        <TextView
+            android:id="@+id/porsche_918"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/porsche_918_spyder"
+            android:padding="8dp"/>
+
+        <TextView
+            android:id="@+id/ferrari_laferrari"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ferrari_laferrari"
+            android:padding="8dp"/>
+
+        <TextView
+            android:id="@+id/mclaren_p1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mclaren_p1"
+            android:padding="8dp"/>
+
+        <TextView
+            android:id="@+id/lamborghini_aventador"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lamborghini_aventador_svj"
+            android:padding="8dp"/>
+
+        <TextView
+            android:id="@+id/ferrari_sf90"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ferrari_sf90_stradale"
+            android:padding="8dp"/>
+    </LinearLayout>
+</ScrollView>

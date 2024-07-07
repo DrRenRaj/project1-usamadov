@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MotorcycleListFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Header TextView for the category -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/motorcycles"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:padding="8dp"/>
+
+        <!-- Separator line -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginTop="8dp"/>
+
+        <!-- List of Motorcycles, each TextView represents a motorcycle name -->
+        <TextView
+            android:id="@+id/ducati_panigale_v4_r"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ducati_panigale_v4_r"
+            android:padding="8dp"/>
+
+        <TextView
+            android:id="@+id/bmw_s1000rr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bmw_s1000rr"
+            android:padding="8dp"/>
+
+        <TextView
+            android:id="@+id/kawasaki_ninja_h2r"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/kawasaki_ninja_h2r"
+            android:padding="8dp"/>
+
+        <TextView
+            android:id="@+id/aprilia_rsv4_1100_factory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/aprilia_rsv4_1100_factory"
+            android:padding="8dp"/>
+
+        <TextView
+            android:id="@+id/mvd_agusta_f4_rc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mvd_agusta_f4_rc"
+            android:padding="8dp"/>
+
+        <TextView
+            android:id="@+id/yamaha_yzf_r1m"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/yamaha_yzf_r1m"
+            android:padding="8dp"/>
+
+        <TextView
+            android:id="@+id/honda_cbr1000rr_r_fireblade_sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/honda_cbr1000rr_r_fireblade_sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:id="@+id/suzuki_gsx_r1000r"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/suzuki_gsx_r1000r"
+            android:padding="8dp"/>
+
+        <TextView
+            android:id="@+id/ktm_1290_super_duke_r"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ktm_1290_super_duke_r"
+            android:padding="8dp"/>
+
+        <TextView
+            android:id="@+id/ducati_streetfighter_v4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ducati_streetfighter_v4"
+            android:padding="8dp"/>
+    </LinearLayout>
+</ScrollView>

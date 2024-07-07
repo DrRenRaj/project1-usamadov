@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainActivity">
+
+    <activity
+        android:id="@+id/loginActivity"
+        android:name="edu.msudenver.cs3013.project1_s24.LoginActivity"
+        android:label="Login Activity"
+        tools:layout="@layout/activity_login">
+
+    </activity>
+
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="edu.msudenver.cs3013.project1_s24.MainActivity"
+        android:label="Main Activity"
+        tools:layout="@layout/activity_main">
+    </activity>
+
+    <fragment
+        android:id="@+id/combustionCarListFragment"
+        android:name="edu.msudenver.cs3013.project1_s24.CombustionCarListFragment"
+        android:label="Combustion Cars"
+        tools:layout="@layout/fragment_combustion_car_list">
+        <action
+            android:id="@+id/navigateToCombustionCarDetailFragment"
+            app:destination="@id/CombustionCarDetailFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/CombustionCarDetailFragment"
+        android:name="edu.msudenver.cs3013.project1_s24.CombustionCarDetailFragment"
+        android:label="Combustion Car Detail"/>
+
+    <fragment
+        android:id="@+id/ElectricCarListFragment"
+        android:name="edu.msudenver.cs3013.project1_s24.ElectricCarListFragment"
+        android:label="Electric Cars"
+        tools:layout="@layout/fragment_electric_car_list">
+        <action
+            android:id="@+id/navigateToElectricCarDetailFragment"
+            app:destination="@id/ElectricCarDetailFragment"/>
+    </fragment>
+    <fragment
+        android:id="@+id/ElectricCarDetailFragment"
+        android:name="edu.msudenver.cs3013.project1_s24.ElectricCarDetailFragment"
+        android:label="Electric Car Detail"/>
+
+    <fragment
+        android:id="@+id/motorcycleListFragment"
+        android:name="edu.msudenver.cs3013.project1_s24.MotorcycleListFragment"
+        android:label="Motorcycles"
+        tools:layout="@layout/fragment_motorcycle_list" >
+        <action
+            android:id="@+id/navigateToMotorcycleDetailFragment"
+            app:destination="@id/MotorcycleDetailFragment"/>
+    </fragment>
+    <fragment
+        android:id="@+id/MotorcycleDetailFragment"
+        android:name="edu.msudenver.cs3013.project1_s24.MotorcycleDetailFragment"
+        android:label="Motorcycle Detail"/>
+
+
+</navigation>
